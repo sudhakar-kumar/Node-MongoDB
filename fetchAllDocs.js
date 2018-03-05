@@ -12,7 +12,8 @@ http.createServer(function(req,res){
 				
 			if(err) throw err;
 			var dbo=db.db("DB1");
-			dbo.collection("empData").find({},{_id:0}).toArray(function(err,result){
+			//dbo.collection("empData").find({},{_id:0}).toArray(function(err,result){ //here '{_id:0}' is not able to hide '_id' from DB
+			dbo.collection("empData").find({}).project({_id:0}).toArray(function(err,result){ //.project({_id:0}) works fine	
 				if (err) throw err;
 				console.log(result);
 				res.writeHead(200,{"Content-Type":"text/html"});
