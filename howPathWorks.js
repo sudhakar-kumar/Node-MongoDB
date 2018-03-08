@@ -23,7 +23,7 @@ console.log(samplePath2);                 --> # D:\Testnodepublic♀orm.html <--
 //  Both of the above style of defining a 'path' is messed up and needs an alternative solution. 
 //  Solution : NodeJS has 'path' module which can perform the exact task irrespective of platform(Linux/Windows).
 //  Implementaion -1. Require 'path' module; this is an inbuilt module
-//                 2. use method 'join' i.e path.join('dirname1','dirname2','filename.extension') 
+//                 2. use method 'join' i.e path.join('dirName1','dirName2',...'dirNameX','filename.extension') 
 //  Example :
 
             console.log(path.join(__dirname,'public','form.html')); 
