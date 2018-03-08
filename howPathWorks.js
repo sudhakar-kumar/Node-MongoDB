@@ -1,4 +1,4 @@
-//This file would walk you through the path settings on NodeJS
+//This file would walk you through the path settings in NodeJS
 
 var path=require('path');
 
