@@ -1,4 +1,4 @@
-var http = require('http');
+const http = require('http');
 
 http.createServer(function(req,res){
 	res.end("Server is up and running....");
