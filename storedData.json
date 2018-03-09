@@ -1,0 +1,23 @@
+[
+    {
+        "empId":1,
+        "empName":"Ravi",
+        "empDept":"Dev",
+        "empType":"Contract"
+    },
+
+    {
+        "empId":2,
+        "empName":"Shiva",
+        "empDept":"Admin",
+        "empType":"Contract"
+    },
+
+    {
+        "empId":3,
+        "empName":"Mahesh",
+        "empDept":"HR",
+        "empType":"Permanent"
+    }
+
+]
